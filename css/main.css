@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	min-height: 100vh;
+}
+
+body {
+	background: #f8f9fa;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:#232425;
+	flex-direction: column;
+	overflow: hidden;
+
+	direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-font-feature-settings: "liga" 0;
+    -moz-font-feature-settings: "liga" 0;
+         font-feature-settings: "liga" 0;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+main {
+	background:#fff;
+	min-width: 320px;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+header img {
+	max-width: 60px;
+	margin-bottom: 20px;
+}
+
+header h3 {
+	color:#444;
+}
+
+footer {
+	text-align: center;
+	margin-top: 20px;
+}
