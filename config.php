@@ -1,11 +1,10 @@
 <?php
-
     // 商户 UID
-    define("MERCHANT_UID",     "2394409723153005");
+    define("MERCHANT_UID", "");
 
     // 商户 TOKEN
-    define("MERCHANT_TOKEN",     "kixdtmi64vo0xmr6zqmful61ydjbflwp");
+    define("MERCHANT_TOKEN", "");
 
     // 订单创建接口地址
-    define("API_TRANSACTION_CREATE",     "http://www.greenyep-test.com/api/transaction/create");
+    define("API_TRANSACTION_CREATE", "https://www.greenyep.com/api/transaction/create");
 ?>
